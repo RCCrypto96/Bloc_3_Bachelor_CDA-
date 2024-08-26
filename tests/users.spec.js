@@ -60,5 +60,6 @@ describe("tester API users", () => {
 
   afterEach(() => {
     jest.restoreAllMocks();
+    mockingoose.reset(); // Use this to reset all mocks in mockingoose
   });
 });
